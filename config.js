@@ -12,25 +12,13 @@ import { en, es, id, ar, pt, fr } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-  ['59897463355', 'ZeroBot', true],  
-  ['59897463355', 'Gabi Owner', true],
-  ['59897463355', 'Gabi Owner 2', true],
-  ['59897463355', 'ZeroBot', true],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355'],
-  ['59897463355']
+  ['59892959423', 'AnnieV"', true],  
 ]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 global.mods = [] 
-global.prems = ['59897463355'] 
+global.prems = ['59892959423'] 
    
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
@@ -102,31 +90,31 @@ global.moment = moment
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.official = [ // Agregate si eres Owner
-['59897463355', 'ZeroBot', 1], 
-['59897463355', 'ZeroBot', 1],  
-['59897463355', 'ZeroBot', 1],
-['59897463355', 'ZeroBot', 1],
-['59897463355', 'ZeroBot', 1]] 
+['59892959423', 'AnnieV2', 1], 
+['59892959423', 'AnnieV2', 1],  
+['59892959423', 'AnnieV2', 1],
+['59892959423', 'AnnieV2', 1],
+['59892959423', 'AnnieV2', 1]] 
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '' //agrega tú país ejemplo: 🇪🇨
 
-global.packname = 'ZeroBot'
-global.author = 'ZeroBot'
+global.packname = '▒̶᩠߲⃡ࠖ᩼᭭݊⃝⃡🩵ࣱꪾ῾֣ؐ  𝘈𝘯𝘯𝘪𝘦𝘉𝘰𝘵 °୭'
+global.author = 'AnnieV2'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.vs = '1.4.9'
 global.vsJB = '2.0'
 
-global.gt = 'ZeroBot'
-global.yt = 'https://www.instagram.com/ventas_bot.thezero'
-global.yt2 = 'https://www.instagram.com/ventas_bot.thezero'
-global.ig = 'https://www.instagram.com/ventas_bot.thezero'
-global.md = 'https://www.instagram.com/ventas_bot.thezero'
-global.fb = 'https://www.instagram.com/ventas_bot.thezero'
+global.gt = 'AnnieV2'
+global.yt = 'https://www.instagram.com/designs.annie'
+global.yt2 = 'https://www.instagram.com/designs.annie'
+global.ig = 'https://www.instagram.com/designs.annie'
+global.md = 'https://www.instagram.com/designs.annie'
+global.fb = 'https://www.instagram.com/designs.annie'
 
 global.nna = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //UPDATE GATABOT
 global.nna2 = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Help
@@ -140,32 +128,32 @@ global.nnnttt3 = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 7 CO
 global.nnnttt4 = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 8 COL
 global.nnnttt5 = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 9 COL
 global.paypal = 'https://paypal.me/Emersonbot'
-global.asistencia = 'Wa.me/59897463355' //Dudas? escríbeme...
+global.asistencia = 'Wa.me/59892959423' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
 
-global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
+global.rg = '𝟢͟𝟣  ́ ..  💭  ٫    ̋  ⎯  *Resultado | Result*\n\n'
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 | 𝙒𝘼𝙍𝙉𝙄𝙉𝙂* ⊱⚠️⊱╮\n\n'
+global.ag = '╰𝟢͟𝟤  ́ ..  💭  ٫    ̋  ⎯ *Advertencia | Warning*\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉 | 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉* ⊱⊱╮\n\n'
+global.iig = '𝟢͟𝟥  ́ ..  💭  ٫    ̋  ⎯ *Información | Information* \n\n'
 global.informacion = iig
 
-global.fg = '╰⊱❌⊱ *𝙁𝘼𝙇𝙇𝙊́ | 𝙀𝙍𝙍𝙊𝙍* ⊱❌⊱╮\n\n'
+global.fg = '𝟢͟𝟦  ́ ..  💭  ٫    ̋  *Fallo | Error* \n\n'
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇 | 𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮\n\n'
+global.mg = '𝟢͟𝟧   ..  💭  ٫    ̋  ⎯ *Lo usó mal | Used it wrong* \n\n'
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏* ⊱📩⊱╮\n\n'
+global.eeg = '𝟢͟𝟨   ..  💭  ٫    ̋  ⎯  *Reporte | Report* \n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
+|global.eg = '𝟢͟𝟩   ..  💭  ٫    ̋  ⎯ *Éxito | Success* \n\n'
 global.exito = eg
 
 //𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
@@ -174,13 +162,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = 'ZeroBot'
-global.igfg = '@ventas_bot.thezero'
+global.wm = 'AnnieV2'
+global.igfg = '@designs.annie'
 global.wait = '*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando | Charging..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*'
-global.nomorown = '59897463355'
+global.nomorown = '59892959423'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -251,16 +239,16 @@ global.flaaa = [
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
 
-global.cmenut = '❖––––––『'
-global.cmenub = '┊✦ '
-global.cmenuf = '╰━═┅═━––––––๑\n'
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     '
+global.cmenut = '╭┈─┈─┈─┈─┈─┈─┈╮'
+global.cmenub = '│➥ 𓏲 ๋࣭  '
+global.cmenuf = '╰┈─┈─┈─┈─ ๑✨๑\n'
+global.cmenua = '\nততততততততততত \n     '
  
-global.dmenut = '*❖─┅──┅〈*'
-global.dmenub = '*┊»*'
-global.dmenub2 = '*┊*'
-global.dmenuf = '*╰┅────────┅✦*'
-global.htjava = '⫹⫺'
+global.dmenut = '╭┈─┈─┈─┈─┈─┈─┈╮'
+global.dmenub = '│➥ 𓏲 ๋࣭  ''
+global.dmenub2 = '│➥ 𓏲 ๋࣭  ''
+global.dmenuf = '╰┈─┈─┈─┈─ ๑✨๑'
+global.htjava = '⋆ ࣪.𓏲 ๋࣭'
 
 global.htki = '*⭑•̩̩͙⊱•••• ☪*'
 global.htka = '*☪ ••••̩̩͙⊰•⭑*'
@@ -268,7 +256,7 @@ global.htka = '*☪ ••••̩̩͙⊰•⭑*'
 global.comienzo = '• • ◕◕════'
 global.fin = '════◕◕ • •'
 
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
+global.botdate = `⋆ ࣪.𓏲 ๋࣭ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
 global.fgif = {
             key: {
