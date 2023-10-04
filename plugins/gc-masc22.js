@@ -1,40 +1,36 @@
+let nombreEncargado = "Encargado"; // Nombre predeterminado
+let textoPersonalizable = "Texto personalizable"; // Texto predeterminado
+
 let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, command }) => {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}
-let pesan = args.join` `
-let oi = `THE ZERO LISTA MASC🗣️: ${pesan}`
-let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
-for (let mem of participants) {
-teks += `@${mem.id.split('@')[0]}🦦`}
-teks += `ㅤ
+  if (!(isAdmin || isOwner)) {
+    global.dfail('admin', m, conn)
+    throw false
+  }
+
+  let nuevoNombre = args[0] || nombreEncargada; // Obtiene el nombre nuevo o usa el predeterminado
+  let nuevoTexto = args.slice(1).join(' ') || textoPersonalizable; // Obtiene el texto nuevo o usa el predeterminado
+  
+  let oi = `𝗟𝗶𝘀𝘁𝗮 𝗱𝗲 𝗩𝗦`;
+  let teks = `╭┈┈ ৎ 🪷ִ ׂ ⬫ ${oi}  ָ࣪  ۰ . ¡! \n`
+  teks += `│
+│      ෆ *𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘰:*  ${nuevoNombre}
+│      ෆ *𝘏𝘰𝘳𝘢𝘳𝘪𐐫:*
+│         ‧₊⌗ 20 🇵🇪 ⌇ 21 🇨🇱 ⌇ 22 🇦🇷      
 │
-│         🍃 ZERO, BOT SIMPLE CREADOR:http://wa.me/59897463355 🍃
-│        ₊˚︶︶︶︶︶︶︶︶˚ ‧₊
-│
-│      ෆ 𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥o:
-│      ෆ 𝘏𝘰𝘳𝘢𝘳𝘪𐐫:
-│         ‧₊⌗ 22 🇵🇪 ⌇ 21 🇨🇱 ⌇ 00 🇦🇷      
-│
-│ㅤㅤʚ 𝘑𝘶𝘨𝘢𝘥𝘰𝘳𝘢𝘴:
-│ㅤ🐾• 
-│ㅤ🐾• 
-│ㅤ🐾• 
-│    🐾•
+│ㅤㅤʚ *𝘑𝘶𝘨𝘢𝘥𝘰𝘳𝘢𝘴:*
+│ 💭 • 
+│ 💭 •
+│ 💭 •
+│ 💭 •
 │   ㅤㅤ
-│ㅤㅤʚ 𝘚𝘶𝘱𝘭𝘦𝘯𝘵𝘦𝘴:
-│ㅤ🐾•
-│ㅤ🐾•
+│ㅤㅤʚ *𝘚𝘶𝘱𝘭𝘦𝘯𝘵𝘦𝘴:*
+│ㅤ 🍃 •
+│ㅤ 🍃 •
 │
 │   ⊹ ִֶָ  𝘋𝘰𝘯𝘢𝘥𝘰𝘳 𝘥𝘦 𝘴𝘢𝘭𝘢: 
-│
-╰───────────────๑❀๑ •`
-conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
+╰───────────────๑ᵎᵎ๑ •`
+
+  conn.sendMessage(m.chat, { text: teks }, )
 }
-handler.help = ['smsf00 <mesaje>','fem00 <mesaje>']
-handler.tags = ['group']
-handler.command = /^(smsf00|masc22)$/i
-handler.admin = true
-handler.group = true
-export default handler
+
+handler.help = ['smsf00 <mensaje>', 'fem00 <mensaje>']
