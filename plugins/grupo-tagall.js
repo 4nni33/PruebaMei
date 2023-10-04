@@ -5,7 +5,7 @@ throw false
 }
 let vn = './media/Invocar.mp3'
 let pesan = args.join` `
-let teks = `*¡ATENCIÓN!*\n\n ${oi}\n ㅤﻬ 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂\n`
+let teks = `*¡ATENCIÓN!*\n ㅤﻬ 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂\n`
 teks += `─ ⋯ ─ ⋯ ─ ⋯ ─ ⋯ ─\n`
 for (let mem of participants) {
 teks += `🫧໋᳝݊▹֛◌  @${mem.id.split('@')[0]}\n`}
