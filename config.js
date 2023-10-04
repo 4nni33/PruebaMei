@@ -151,7 +151,7 @@ global.mg = '𝟢͟𝟧   ..  💭  ٫    ̋  ⎯ *Lo usó mal | Used it wrong* 
 global.mal = mg
 
 global.eeg = '𝟢͟𝟨   ..  💭  ٫    ̋  ⎯  *Reporte | Report*\n\n'
-global.envio = eeg
+global.envio = envio
 
 |global.eg = '𝟢͟𝟩   ..  💭  ٫    ̋  ⎯ *Éxito | Success* \n\n'
 global.exito = eg
