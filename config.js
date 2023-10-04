@@ -150,7 +150,7 @@ global.fallo = fg
 global.mg = '𝟢͟𝟧   ..  💭  ٫    ̋  ⎯ *Lo usó mal | Used it wrong* \n\n'
 global.mal = mg
 
-global.eeg = '𝟢͟𝟨   ..  💭  ٫    ̋  ⎯  *Reporte | Report* \n\n'
+global.eeg = '𝟢͟𝟨   ..  💭  ٫    ̋  ⎯  *Reporte | Report*\n\n'
 global.envio = eeg
 
 |global.eg = '𝟢͟𝟩   ..  💭  ٫    ̋  ⎯ *Éxito | Success* \n\n'
