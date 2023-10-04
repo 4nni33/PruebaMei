@@ -90,7 +90,7 @@ loadChatgptDB();
 
 /*------------------------------------------------*/
 
-global.authFile = `ZeroBot`
+global.authFile = `Annie`
 const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = MessageRetryMap => { }
 let { version } = await fetchLatestBaileysVersion();
@@ -109,7 +109,7 @@ return { conversation: "hello, i'm GataBot-MD" }},
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['Zero Bot','Edge','1.0.0'],
+browser: ['Annie','Edge','1.0.0'],
 version   
 }       
        
@@ -117,7 +117,7 @@ version
 /*msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['GeriPium','Edge','107.0.1418.26'],
+browser: ['Annie','Edge','107.0.1418.26'],
 version   
 }*/
 
