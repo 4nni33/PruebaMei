@@ -12,14 +12,16 @@ let handler = async (m, { conn, text }) => {
   let html = await res2.text()
  // let { document } = new JSDOM(html).window
   //let genAnim = [...document.querySelectorAll('div[class="spaceit_pad"] > * a')].map(el => el.href).filter(href => href.startsWith('/anime/genre/'))
-  let animeingfo = `✨ *Titulo:* ${title}
-🎆 *Episodios:* ${episodes}
-💬 *Transmitido en:* ${type}
-💌 *Rating:* ${rated}
-❤️ *Score:* ${score}
-👥 *Miembros:* ${members}
-💚 *Sinopsis en inglés:* ${synopsis}
-🌐 *URL*: ${url}`
+  let animeingfo = `╭┈─┈─┈─┈─┈─┈─┈╮
+│✨ *Titulo:* ${title}
+│🎆 *Episodios:* ${episodes}
+│💬 *Transmitido en:* ${type}
+│💌 *Rating:* ${rated}
+│❤️ *Score:* ${score}
+│👥 *Miembros:* ${members}
+│💚 *Sinopsis en inglés:* ${synopsis}
+│🌐 *URL*: ${url}
+╰───────────────๑✨๑`
   conn.sendFile(m.chat, image_url, '', animeingfo, m)
 }
 handler.help = ['anime <judul>']
