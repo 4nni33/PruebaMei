@@ -627,5 +627,16 @@ ${user.premLimit === 1 ? '' : `🎟️ *PREMIUM*
 await m.reply(`${sn}`)	
 }}
 handler.command = ['verify', 'verificar', 'register', 'registrar', 'reg', 'reg1', 'nombre', 'name', 'nombre2', 'name2', 'edad', 'age', 'edad2', 'age2', 'genero', 'género', 'gender', 'identidad', 'pasatiempo', 'hobby', 'identity', 'finalizar', 'pas2', 'pas3', 'pas4', 'pas5']  ///^(verify|verificar|reg(ister)?)$/i
-handler.private = true 
+import { createHash } from 'crypto';
+
+// ...
+
+let handler = async function (m, { conn, text, command, usedPrefix }) {
+  // Resto del código para verificación en grupos y chats privados
+  let fkontak = { /* ... */ }
+  let d = new Date(new Date + 3600000)
+  // ...
+}
+
+handler.private = true; // Mantén esta línea si deseas que el comando sea privado
 export default handler
