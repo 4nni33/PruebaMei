@@ -10,10 +10,10 @@ let isClose = { // Switch Case Like :v
 }[(args[0] || '')]
 if (isClose === undefined)
 throw `
-${lenguajeGB['smsAvisoMG']()}*╭━[ ${wm} ]━⬣*
+${lenguajeGB['smsAvisoMG']()}╭┈┈  ৎ 🩵 ⬫ ${wm}  ָ࣪  ۰ . ¡! 
 *┃➥ ${usedPrefix + command} abrir*
 *┃➥ ${usedPrefix + command} cerrar*
-*╰━━━━━[ 𓃠 ${vs} ]━━━━━⬣*
+*╰┈─┈─┈─┈─ ๑✨๑ *
 `.trim()
 await conn.groupSettingUpdate(m.chat, isClose)
   
