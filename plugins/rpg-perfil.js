@@ -1,24 +1,20 @@
 import { createHash } from 'crypto'
 import PhoneNumber from 'awesome-phonenumber'
 import fetch from 'node-fetch'
-let handler = async (m, { conn, usedPrefix }) => {
-let pp = 'https://i.imgur.com/EXTbyyn.jpg'
-//const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+let handler = async(m, { conn, usedPrefix, participants, isPrems }) => {
+let pp = 'https://i.imgur.com/HE1dWt6.png'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+if (!(who in global.db.data.users)) throw `El usuario que está mencionando no está registrado en mi base de datos`
 try {
-pp = await conn.getProfilePicture(who)         //pp = await conn.getProfilePicture(who)
-} catch (e) { 
-
+pp = await conn.profilePictureUrl(who)
+} catch (e) {
 } finally {
-let { name, limit, lastclaim, registered, regTime, age } = global.db.data.users[who]
+let { name, role, level, limit, money, exp, joincount, lastclaim, registered, regTime, age, premiumTime } = global.db.data.users[who]
 let username = conn.getName(who)
-let user = global.db.data.users[m.sender]
-let prem = global.prems.includes(who.split`@`[0])
+let prem = global.prems.includes(who.split `@` [0])
 let sn = createHash('md5').update(who).digest('hex')
-let str = `
 let str = `╭┈─┈─┈─┈─┈─┈─┈╮
-│➥ 𓏲 ๋࣭  𝙉𝙊𝙈𝘽𝙍𝙀 ${name} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓ᚲᴳᴮ' : ''}
+│➥ 𓏲 ๋࣭  𝙉𝙊𝙈𝘽𝙍𝙀 ${name} ${user.registered === true ?: ''}
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 │➥ 𓏲 ๋࣭  𝙉𝙐𝙈𝙀𝙍𝙊 ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -33,7 +29,8 @@ let str = `╭┈─┈─┈─┈─┈─┈─┈╮
 │➥ 𓏲 ๋࣭  𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀 𝙎𝙀𝙍𝙄𝙀
 │➥ 𓏲 ๋࣭  *${sn}*
 ╰┈─┈─┈─┈─ ๑✨๑ `
-    conn.sendFile(m.chat, pp, 'perfil.jpg', str, fkontak, false, { mentions: [who]})
+conn.sendMessage(m.chat, { image: { url: pp }, caption: str }, { quoted: m })
+//conn.sendButton(m.chat, str, author, pp, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)
 }}
 handler.help = ['profile [@user]']
 handler.tags = ['xp']
