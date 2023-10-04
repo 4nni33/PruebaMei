@@ -116,18 +116,18 @@ global.ig = 'https://www.instagram.com/designs.annie'
 global.md = 'https://www.instagram.com/designs.annie'
 global.fb = 'https://www.instagram.com/designs.annie'
 
-global.nna = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //UPDATE GATABOT
-global.nna2 = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Help
-global.nn = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 5
-global.nnnttt2 = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 6 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 7 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 8 COL
-global.nnnttt5 = 'https://chat.whatsapp.com/K73UUURJlBz6cOUZ2h62RB' //Grupo 9 COL
-global.paypal = 'https://paypal.me/Emersonbot'
+global.nna = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //UPDATE GATABOT
+global.nna2 = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Help
+global.nn = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Grupo 2
+global.nnnt = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Grupo 3
+global.nnntt = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Grupo 4
+global.nnnttt = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Grupo 5
+global.nnnttt2 = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Grupo 6 COL
+global.nnnttt3 = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Grupo 7 COL
+global.nnnttt4 = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Grupo 8 COL
+global.nnnttt5 = 'https://chat.whatsapp.com/IexGDSydgEQL6dp6tb4BI4' //Grupo 9 COL
+global.paypal = 'https://paypal.me/anni1edes1gns'
 global.asistencia = 'Wa.me/59892959423' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
